@@ -19,7 +19,7 @@ Project consisted of a simple SQL filtering excercise where I pretended that the
 
 To begin with, I needed to find any login attempts made after office hours, which ends at 18:00, specifically any unsuccessful ones. To do this, I created a SQL query. In the top part of the screenshot below, you can see my query, and beneath it, the output. 
 
-The organization keeps track of any login attempts in a table called <code>log_in_attempts</code> so I selected everything from that table, and used the <code>WHERE</code> clause with the <code>AND</code> operator to filter my results to output the attempts made after 18:00 by specifying that <code>login_time > '18:00'</code>, and that was not successful, by specifying that <code>success = FALSE</code>. As the success column is a binary data type, either 0 or FALSE are accepted inputs for specifying failed attempts, and 1 or TRUE for successful attempts.
+The organization keeps track of any login attempts in a table called <code>log_in_attempts</code> so I selected everything from that table, and used the <code>WHERE</code> clause with the <code>AND</code> operator to filter my results to output the attempts made after 18:00 that was not successful, by specifying the criteria <code>login_time > '18:00'</code> and <code>success = FALSE</code>. As the success column is a binary data type, either 0 or FALSE are accepted inputs for specifying failed attempts, and 1 or TRUE for successful attempts.
 
 
 ![image](https://github.com/AStensrud/SQLFilteringLab/assets/126564741/7908ffab-a40d-4007-a3da-3fcfc5b3d6f7)
