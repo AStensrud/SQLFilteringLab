@@ -1,14 +1,14 @@
 <h1>SQL Filtering Lab</h1>
 
 <h2>Description</h2>
-Project consists of a simple SQL filtering excercise where I pretend that there has been suspicious login attempts in my organization and I have to figure out if the attempts were legitimate or breach attempts by a third party. I utilized the Linux Bash Shell to access SQL and ran queries against database tables related to employees and login logs.
+Project consisted of a simple SQL filtering excercise where I pretended that there has been suspicious login attempts in my organization and I have to figure out if the attempts were legitimate or breach attempts by a third party. I utilized the Linux Bash Shell to access SQL and ran queries against database tables related to employees and login logs.
 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Linux Bash Shell</b> 
+- <b>Linux termial / CLI</b> 
 - <b>sqlite3</b>
 
 <h2>Environments Used </h2>
